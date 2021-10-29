@@ -891,7 +891,13 @@ section.catalog .wrapper .tab-btns {
  section.catalog .wrapper .tab-btns .btn {
    width: 25rem;
   }
-
+  
+  .product-wrapper {
+    width: calc(100% - 12rem);
+  }
+  .popup .wrapper .content {
+    width: calc(100% - 3rem);
+  }
 
 .container {
   width: calc(100vw - 5rem);
