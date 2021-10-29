@@ -200,7 +200,7 @@ section.size-info {
     height: 30rem;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
   }
   
   section.catalog .wrapper .product-grid .product .image span {
@@ -509,16 +509,22 @@ section.order-block {
 }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     section.size-info .wrapper .size-table {
         overflow: auto;
+    }
+
+    section.size-info .wrapper .size-table .size-items .type {
+        width: 14rem;
+    }
+    section.size-info .wrapper .size-table .size-items .type-content {
+        width: 6rem;
     }
 
     section.size-info .wrapper .size-table .size-items {
         width: fit-content;
     }
 }
-
 @media screen and (max-width: 767px) {
 
     section.catalog .wrapper .product-grid .product {
